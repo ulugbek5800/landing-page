@@ -18,5 +18,26 @@ ul.no-bullets {
 
 .header a {
     text-decoration: none;
-    color: black;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.header p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
