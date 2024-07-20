@@ -1,13 +1,28 @@
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: "Roboto", sans-serif;
 }
 
 .flex-container {
     display: flex;
+    max-width: 1100px;
+    margin: 0 auto;     /* everything is in the middle */
+    padding: 0 30px;    /* padding 30px left and right when shrinks */
+    align-items: center;
 }
 
 .header .flex-container {
     justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
 }
 
 ul.no-bullets {
@@ -28,7 +43,7 @@ ul.no-bullets {
 
 .header h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -40,4 +55,12 @@ ul.no-bullets {
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.placeholder {
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    border: 1px solid #ddd;
+    display: block;
 }
