@@ -2,11 +2,11 @@
     font-family: "Roboto", sans-serif;
 }
 
-.container {
+.flex-container {
     display: flex;
 }
 
-.header .container {
+.header .flex-container {
     justify-content: space-between;
 }
 
