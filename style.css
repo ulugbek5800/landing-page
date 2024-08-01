@@ -47,6 +47,7 @@ body {
 }
 
 .hero, .information, .quote, .action {
+    /* display: flex; */
     flex: 1; /* remove? */
     height: 500px;
     justify-content: center;
