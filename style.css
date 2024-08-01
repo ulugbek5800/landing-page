@@ -41,7 +41,7 @@ body {
 
 .hero, .information, .quote, .action {
     flex: 1; /* remove? */
-    height: 550px;
+    height: 450px;
 }
 
 .navbar, .footer {
