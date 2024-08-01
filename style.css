@@ -54,6 +54,11 @@ body {
     align-items: center;
 }
 
+.footer {
+    justify-content: center;
+    align-items: center;
+}
+
 /* every item is a box */
 /* add margins, paddings to fix the style */
 /* or use height-width / flex-basis */
@@ -64,6 +69,7 @@ body {
 
 .footer {
     height: 100px;
+    width: 100%;
 }
 
 .flex-container {
