@@ -38,7 +38,7 @@ body {
     background-color: #E5E7EB;
 }
 
-.action-box {
+.action {
     background-color: #3882F6;
 }
 
@@ -46,7 +46,7 @@ body {
     color: #E5E7EB;
 }
 
-.quote {
+.quote .italic-quote {
     display: flex;
     font-size: 36px;
     font-style: italic;
@@ -60,7 +60,7 @@ body {
     display: flex;
 }
 
-.hero, .information, .quote, .action {
+.stand-size {
     /* display: flex; */
     flex: 1; /* remove? */
     height: 500px;
@@ -119,17 +119,6 @@ ul.no-bullets {
 .header, .footer {
     background-color: #1F2937;
 }
-
-/* why header is full background-color, and quote, action and footer are not ?
-because header is not flex item, and does not have 30px padding, and it has 2 flexbox items
-quote, action and footer are flex items, and they have padding 30px */
-
-/*
--    <footer class="footer">
--        <div class="flex-container">
-+    <footer class="footer flex-container">
-+        <div>   <!-- to make full like header: <div class="flex-container">, and no flex-container in footer -->
-*/
 
 .header h1 {
     font-size: 48px;
