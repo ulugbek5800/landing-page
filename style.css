@@ -55,6 +55,15 @@ body {
 .quote .flex-container {
     flex-direction: column;
 }
+.quote {
+    display: flex;
+    justify-content: center;
+}
+.quote .author {
+    align-self: end;
+    font-weight: bold;
+    font-size: large;
+}
 
 .footer {
     display: flex;
