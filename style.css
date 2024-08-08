@@ -21,7 +21,7 @@ body {
     display: block;
 }
 
-.information.header-text {
+.information .header-text {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
@@ -38,7 +38,7 @@ body {
     background-color: #E5E7EB;
 }
 
-.action {
+.action-box {
     background-color: #3882F6;
 }
 
